@@ -15,11 +15,11 @@ def set():
 root = Tk()
 root.geometry("200x150")
 
-button = Button(root, text="Button1", command=set_1) # dont use parathesis with function name
-button.pack()
-
 frame = Frame(root)
 frame.pack()
+
+button = Button(frame, text="Button1", command=set_1) # dont use parathesis with function name
+button.pack()
 
 var = StringVar()
 var.set("Hello World")
