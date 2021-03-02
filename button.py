@@ -4,7 +4,6 @@
 
 from tkinter import *
 
-
 def set_1():
     print("You clicked the button")
     var1.set(" clicked")
