@@ -26,7 +26,7 @@ entry_1.pack(padx = 10 , pady =10)
 var = StringVar()
 var.set("   ")
 
-label = Label(frame, textvariable= var, width = 15, fg = "white", bg ='black')
+label = Label(frame, textvariable= var, width = 15, fg = "black", bg ='grey')
 label.pack()  # without pack function widget won't get displayed
 
 # creating button to perform some action
