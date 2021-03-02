@@ -31,6 +31,7 @@ label.pack()
 
 label = Label(frame, textvariable= var4, width = 5, bg = 'grey')
 label.pack()
+
 # submit button to submit selected option
 Sub_button = Button (frame, text = "Submit", command = Retreive_data)
 Sub_button.pack()
