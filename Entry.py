@@ -30,7 +30,7 @@ label = Label(frame, textvariable= var, width = 15, fg = "black", bg ='grey')
 label.pack()  # without pack function widget won't get displayed
 
 # creating button to perform some action
-button = Button(frame, text = "Button", command = retrieve_data , fg = 'red' )
+button = Button(frame, text = "Submit", command = retrieve_data)
 button.pack()
 
 root.mainloop()
