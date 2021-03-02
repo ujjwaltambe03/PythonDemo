@@ -4,7 +4,7 @@
 # syntax: ChkButton = Checkbutton(master, option.........)
 # A Check Button returns 1 if it’s checked, otherwise it returns 0.
 
-from tkinter import *
+from tkinter import  *
 
 def Retreive_data():
     var2.set(var1.get())
