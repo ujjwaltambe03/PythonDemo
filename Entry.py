@@ -24,7 +24,7 @@ entry_1.insert(50,'Give Input')  # insert is use to store provided string at 0 i
 entry_1.pack(padx = 10 , pady =10)
 
 var = StringVar()
-var.set("   ")
+var.set("  ")
 
 label = Label(frame, textvariable= var, width = 15, fg = "black", bg ='grey')
 label.pack()  # without pack function widget won't get displayed
